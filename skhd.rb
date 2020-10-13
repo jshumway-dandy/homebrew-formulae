@@ -51,6 +51,8 @@ class Skhd < Formula
           <string>#{var}/log/skhd/skhd.out.log</string>
           <key>StandardErrorPath</key>
           <string>#{var}/log/skhd/skhd.err.log</string>
+          <key>ProcessType</key>
+          <string>Interactive</string>
         </dict>
         </plist>
         EOS
